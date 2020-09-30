@@ -21,3 +21,21 @@ body{
 img{
   float: left;
 }
+
+/* The introduction section should remain full-width, but the three sections on browsers should appear side-by-side as three columns, each 300px.*/
+
+.column{
+  float: left;
+  width: 300px;
+}
+
+/* Remove the table of contents header, and instead style the list of section links in a simple horizontal bar (i.e. a “navigation bar”).*/
+#bar ul{
+  list-style-type: none;
+}
+
+#bar li{
+  display: inline;
+  margin-left: 75px;
+  margin-right: 75px;
+}
