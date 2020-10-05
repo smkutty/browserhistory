@@ -1,41 +1,7 @@
-/* The font for all headings should be Oswald.
-The font for non-heading text should be Open Sans.
-The font color should be DarkBlue.
-The top and bottom margins should be 10 px.
-The left and right margins should be 50 px.
-The background color should be Ivory.
-The logos should be inline with the text.*/
-
-
-h1,h2 {
-  font-family: 'Oswald', serif;
-}
-
 body{
-  font-family: 'Open Sans', serif;
-  color: darkblue;
-  margin: 10px 50px 10px 50px;
-  background-color: ivory;
+  margin-top: 50px;
 }
 
-img{
-  float: left;
-}
-
-/* The introduction section should remain full-width, but the three sections on browsers should appear side-by-side as three columns, each 300px.*/
-
-.column{
-  float: left;
-  width: 300px;
-}
-
-/* Remove the table of contents header, and instead style the list of section links in a simple horizontal bar (i.e. a “navigation bar”).*/
-#bar ul{
-  list-style-type: none;
-}
-
-#bar li{
-  display: inline;
-  margin-left: 75px;
-  margin-right: 75px;
+h1{
+  color: #4183C4;
 }
